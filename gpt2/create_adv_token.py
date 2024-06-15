@@ -158,6 +158,8 @@ def run_model():
     target_tokens = make_target_batch(tokenizer, device, target_texts)
     # print(target_tokens)
     # sys.exit(0)
+    # print(target_tokens)
+    # sys.exit(0)
     
 
     for _ in range(10): # different random restarts of the trigger
